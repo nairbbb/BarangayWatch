@@ -1,0 +1,20 @@
+body{
+  background: rgb(5,93,96);
+  background: linear-gradient(156deg, rgba(5,93,96,1) 3%, rgba(0,16,17,1) 54%, rgba(21,121,125,1) 100%);
+  background-repeat:no-repeat;
+  height:auto;
+  width:auto;
+}
+
+.bg-admin-login{
+	width:400px;
+	height:500px;
+	margin-top:-30%;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  position: absolute; /* magic sauce */
+}

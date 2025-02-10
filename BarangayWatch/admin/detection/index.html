@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YOLOv8 Object Detection</title>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    <style>
+      canvas {
+          display:block;
+          border: 1px solid black;
+          margin-top:10px;
+      }
+      video {
+          display:block;
+          border: 1px solid black;
+          margin-top:10px;
+      }
+    </style>
+</head>
+<body>
+    <video id="videoElement" width="640" height="480" autoplay></video>
+    <button id="detectButton">Detect Objects</button>
+    <canvas></canvas>
+    <script src="detection.js"></script>
+</body>
+</html>
